@@ -1,10 +1,11 @@
 
+#your array
 arr=[3015+x**2 for x in range(100) ]
 
 
 
 
-
+#temprorary array
 temp=  arr
 temp.sort()
 print(temp)
@@ -14,6 +15,8 @@ flag=False
 #input 
 search=int(input())
 
+
+#algorithm
 while len(temp)!=1:
     print(temp)
     print(int(len(temp)/2))
